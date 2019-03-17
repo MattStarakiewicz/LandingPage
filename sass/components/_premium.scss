@@ -1,0 +1,50 @@
+.premium {
+    height: auto;
+    .inner-container {
+        height: auto;
+       .row {
+        margin-bottom: 20px;
+        .premium-column1 {
+            padding-right: 30px;
+        }
+
+        .premium-column2 {
+            padding-top: 20px;
+            padding-left: 30px;
+            .feature {
+                margin-bottom: 28px;
+                .header-row {
+                    display: flex;
+                    flex-direction: row;
+                    i {
+                        color: $brand-color;
+                        font-size: 28px;
+                        padding-left: 15px;
+                    }
+                    h3 {
+                        margin: 0;
+                        color: $main-font-color;
+                        font-size: 20px;
+                        padding-top: 3px;
+                        padding-left: 30px;
+                    }
+                    
+                    
+                }
+                p {
+                    max-width: 510px;
+                    padding-left: 73px;
+                    margin-bottom: 10px;
+                }
+            }
+        }
+    }
+    }
+    .slider-switcher {
+        border-top: 1px solid $subtitle-color;
+    }
+    .premium-btn {
+        margin: 0 auto;
+        display: block;
+    }
+}

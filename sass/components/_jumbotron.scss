@@ -1,0 +1,83 @@
+@media (min-width: 845px) {
+    .jumbotron {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        .home {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            width: 700px;
+            margin: 115px auto;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            .header {
+                margin-top: 220px;
+                margin-bottom: 0;
+                text-align: center;
+                line-height: 70px;
+            }
+            .call {
+                font-size: 23px;
+                font-weight: $bold;
+                color: $main-secondary-font-color;
+                text-align: center;
+            }
+            .home-button {
+                margin: 20px auto;
+            }
+        }
+        img {
+            object-fit: cover;
+        }
+    }
+}
+
+@media (max-width: 844px) {
+    .jumbotron {
+        padding-top: 220px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        ax-height: 50px;
+        .home {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            idth: 200px;
+            margin: 220px auto 20px auto;
+            display: block;
+            ustify-content: center;
+            lex-direction: column;
+            .header {
+                font-size: 30px;
+                margin: 0 auto;
+                margin-top: 50px;
+                
+                margin-bottom: 0;
+                text-align: center;
+                line-height: 35px; 
+            }
+            .call {
+                font-size: 16px;
+                font-weight: $bold;
+                color: $main-secondary-font-color;
+                text-align: center;
+            }
+            .home-button {
+                margin: 20px auto;
+                display: block;
+            }
+        }
+        img {
+            object-fit: cover;
+            max-height: 280px;
+        }
+    }
+}
+

@@ -1,0 +1,52 @@
+@media (min-width: 845px) {
+    .happy-clients {
+        background-color: $clients-background;
+        height: 663px;
+                .team-box {
+    
+                    height: 430px;
+                    border-radius: 4px;
+                    img {
+                        border-radius: 100%;
+                        margin: 0 auto;
+                        display: block;
+                        padding: 28px 0;
+                    }
+                    h3 {
+                        margin: 0;
+                        font-weight: $bold;
+                        color: $main-font-color;
+                        font-size: 24px;
+                        text-align: center;
+                        text-transform: capitalize;
+                    }
+                    h4 {
+                        margin: 0;
+                        font-weight: 500;
+                        font-size: 17px;
+                        color: $main-font-color;
+                        padding-top: 8px;
+                        text-align: center;
+                        text-transform: capitalize;
+                    }
+                    i {
+                        text-align: center;
+                        display: block;
+                        padding: 26px 0 10px 0;
+                        font-size: 26px;
+                        color: $paragraph-color;
+                    }
+                    p{
+                        text-align: center;
+                        margin: 0 180px;
+                    }
+
+                }
+    }
+}
+
+@media (max-width: 844px) {
+    .happy-clients {
+        display: none;
+    }
+}

@@ -1,0 +1,22 @@
+@media (min-width: 1025px) {
+    .video-frame {
+        padding-left: 20px;
+    }
+}
+
+@media (min-width: 855px) and (max-width: 1024px) {
+    .video-frame, .btn {
+        margin: 15px auto;
+        display: block;
+    }
+}
+
+@media (max-width: 844px) {
+    .video-frame {
+        margin: 0 auto;
+        display: block;
+        padding-left: 0;
+        width: 335px;
+        height: 250px;
+    }
+}

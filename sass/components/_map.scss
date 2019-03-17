@@ -1,0 +1,33 @@
+.map {
+    background: url(http://placehold.it/1600x600);
+    .address-box {
+        background-color: $main-secondary-font-color;
+        margin: 40px 15px 40px 0; 
+        padding: 60px 20px 45px;
+        
+        .address-line {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin-bottom: 13px;
+            i {
+                margin: 0 20px 0 18px ;
+                color: $main-secondary-font-color;
+                background-color: $paragraph-color;
+                
+                width: 35px;
+                height: 35px;
+                border-radius: 100%;
+                text-align: center;
+                line-height: 35px;
+                font-size: 100%;
+            }
+            p {
+                display: inline-block;
+                font-size: 12px;
+                font-weight: 500;
+                line-height: 32px;
+            }
+        }
+    }
+}

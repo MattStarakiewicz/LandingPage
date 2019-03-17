@@ -1,0 +1,115 @@
+@media (min-width: 845px) {
+    p {
+        font-size: $paragraph-size;
+        font-weight: $normal;
+        color: $paragraph-color;
+        line-height: 24px;
+        margin: 0;
+    }
+
+    a, p, h1, h2, h3, h4, h5, h6, {
+        font-family: $font-site;
+    };
+
+    h1 {
+        font-size: $main-header-font-size;
+        color: $main-secondary-font-color;
+        font-weight: $bold;
+        text-transform: uppercase;
+    };
+
+    h2, {
+        font-size: $section-titles-font-size;
+        color: $main-font-color;
+        font-weight: $bold;
+        text-transform: uppercase;
+    };
+
+    h3 {
+        font-size: $facts-titles-font-size;
+        color: $main-secondary-font-color;
+        font-weight: $bold;
+        text-transform: uppercase;
+    }
+
+    h4 {
+        font-size: $subtitles-font-size;
+        color: $subtitle-color;
+        font-weight: $bold;
+        text-transform: uppercase;
+    }
+
+    h5, h6, {
+        font-size: $subtitles-font-size;
+        color: $subtitle-color;
+        font-weight: $normal;
+    }
+
+    .section-headers {
+        text-align: center;
+        padding: 60px 0 35px 0;
+        line-height: 35px;
+        h2, h4 {
+            margin: 0;
+        }
+    }
+}
+
+@media (max-width: 844px) {
+    p {
+        font-size: 12px;
+        font-weight: $normal;
+        color: $paragraph-color;
+        line-height: 16px;
+        margin: 0;
+    }
+
+    a, p, h1, h2, h3, h4, h5, h6, {
+        font-family: $font-site;
+    };
+
+    h1 {
+        font-size: $main-header-font-size;
+        color: $main-secondary-font-color;
+        font-weight: $bold;
+        text-transform: uppercase;
+    };
+
+    h2, {
+        font-size: 25px;
+        color: $main-font-color;
+        font-weight: $bold;
+        text-transform: uppercase;
+    };
+
+    h3 {
+        font-size: $facts-titles-font-size;
+        color: $main-secondary-font-color;
+        font-weight: $bold;
+        text-transform: uppercase;
+    }
+
+    h4 {
+        font-size: 12px;
+        color: $subtitle-color;
+        font-weight: $bold;
+        text-transform: uppercase;
+    }
+
+    h5, h6, {
+        font-size: $subtitles-font-size;
+        color: $subtitle-color;
+        font-weight: $normal;
+    }
+
+    .section-headers {
+        text-align: center;
+        padding: 30px 0 15px 0;
+        line-height: 30px;
+        h2, h4 {
+            margin: 0;
+        }
+    }
+}
+
+

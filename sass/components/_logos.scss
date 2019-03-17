@@ -1,0 +1,21 @@
+@media (min-width: 1080px) {
+    .logos {
+        border-top: 1px solid $subtitle-color;
+        border-bottom: 1px solid $subtitle-color; 
+        padding: 50px 0;
+        .logos-row {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            .logo {
+                margin: 0 40px;
+            }
+        }
+    }
+}
+
+@media (max-width: 1079px) {
+    .logos {
+        display: none;
+    }
+}

@@ -1,0 +1,67 @@
+@media (min-width: 845px) {
+    .btn {
+        font-family: $font-site;
+        font-weight: $bold;
+        color: $main-secondary-font-color;
+        background-color: $brand-color;
+        text-transform: uppercase;
+        font-size: 12px;
+        height: 45px;
+        border-radius: 20px;
+        padding: 0 45px;
+        border: 1px solid transparent;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        &:hover {
+            background-color: $brand-color-hover;
+        }
+    }
+
+    .button-margin {
+        margin: 25px 0;
+    }
+
+    .call-button {
+        display: none;
+    }
+
+    .nav-button {
+        display: none;
+    }
+}
+
+@media (max-width: 844px) {
+    .btn {
+        margin: 25px auto;
+        display: block;
+        font-family: $font-site;
+        font-weight: $bold;
+        color: $main-secondary-font-color;
+        background-color: $brand-color;
+        text-transform: uppercase;
+        font-size: 10px;
+        height: 35px;
+        border-radius: 20px;
+        padding: 0 25px;
+        border: 1px solid transparent;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        &:hover {
+            background-color: $brand-color-hover;
+        }
+    }
+
+    .call-button {
+        display: none;
+    }
+
+    .nav-button {
+        display: none;
+    }
+}
+
+
+
+
+
+

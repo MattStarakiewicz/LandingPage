@@ -1,0 +1,237 @@
+@media (min-width: 1080px) {
+    .social-icons {
+        padding: 23px 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border-bottom: 1px solid $subtitle-color;
+        .link-icon {
+            color: $subtitle-color;
+            font-size: 23px;
+            line-height: 33px;
+            padding: 0 20px;
+        }
+        h4 {
+            margin: 0;
+            line-height: 33px;
+            padding-right: 60px;
+        }
+        a {
+            width: 33px;
+            height: 33px;
+            border-radius: 100%;
+            background-color: $subtitle-color;
+            padding: 7px;
+            text-decoration: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition-duration: 0.4s;
+            &:hover {
+                background-color: $paragraph-color;
+            }
+        }
+        i {
+            color: $main-secondary-font-color;
+            font-size: 16px;
+        }
+        p {
+            padding-left: 5px;
+            padding-right: 40px;
+            line-height: 33px;
+            font-size: 10px;
+            font-weight: $bold;
+        }
+        .twitter {
+            background-color: rgb(126, 195, 238);
+            &:hover {
+                background:rgba(126, 195, 238, 0.6);
+            }
+        }
+        .linkedin {
+            background: rgb(76, 123, 180);
+            &:hover {
+                background:rgba(76, 123, 180, 0.6);
+            }
+        }
+
+        .facebook {
+            background: rgb(72, 98, 151);
+            &:hover {
+                background: rgba(72, 98, 151, 0.6);
+            }
+        }
+
+        .google {
+            background: rgb(196, 83, 57);
+            &:hover {
+                background: rgba(196, 83, 57, 0.6);
+            }
+        }
+
+        .pinterest {
+            background: rgb(154, 49, 41);
+            &:hover {
+                background: rgba(154, 49, 41, 0.6);
+            }
+        }
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1079px) {
+    .social-icons {
+        padding: 23px 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border-bottom: 1px solid $subtitle-color;
+        .link-icon {
+            color: $subtitle-color;
+            font-size: 23px;
+            line-height: 33px;
+            padding: 0 20px;
+        }
+        h4 {
+            margin: 0;
+            line-height: 33px;
+            padding-right: 60px;
+        }
+        a {
+            width: 33px;
+            height: 33px;
+            border-radius: 100%;
+            background-color: $subtitle-color;
+            padding: 7px;
+            text-decoration: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition-duration: 0.4s;
+            &:hover {
+                background-color: $paragraph-color;
+            }
+        }
+        i {
+            color: $main-secondary-font-color;
+            font-size: 16px;
+        }
+        p {
+            padding-left: 5px;
+            padding-right: 10px;
+            line-height: 33px;
+            font-size: 10px;
+            font-weight: $bold;
+        }
+        .twitter {
+            background-color: rgb(126, 195, 238);
+            &:hover {
+                background:rgba(126, 195, 238, 0.6);
+            }
+        }
+        .linkedin {
+            background: rgb(76, 123, 180);
+            &:hover {
+                background:rgba(76, 123, 180, 0.6);
+            }
+        }
+
+        .facebook {
+            background: rgb(72, 98, 151);
+            &:hover {
+                background: rgba(72, 98, 151, 0.6);
+            }
+        }
+
+        .google {
+            background: rgb(196, 83, 57);
+            &:hover {
+                background: rgba(196, 83, 57, 0.6);
+            }
+        }
+
+        .pinterest {
+            background: rgb(154, 49, 41);
+            &:hover {
+                background: rgba(154, 49, 41, 0.6);
+            }
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .social-icons {
+        padding: 23px 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border-bottom: 1px solid $subtitle-color;
+        .link-icon {
+            color: $subtitle-color;
+            font-size: 23px;
+            line-height: 33px;
+            padding: 0 20px;
+        }
+        h4 {
+            display: none;
+        }
+        a {
+            width: 33px;
+            height: 33px;
+            border-radius: 100%;
+            background-color: $subtitle-color;
+            padding: 7px;
+            text-decoration: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition-duration: 0.4s;
+            &:hover {
+                background-color: $paragraph-color;
+            }
+        }
+        i {
+            color: $main-secondary-font-color;
+            font-size: 16px;
+        }
+        p {
+            padding-left: 5px;
+            padding-right: 10px;
+            line-height: 33px;
+            font-size: 10px;
+            font-weight: $bold;
+        }
+        .twitter {
+            background-color: rgb(126, 195, 238);
+            &:hover {
+                background:rgba(126, 195, 238, 0.6);
+            }
+        }
+        .linkedin {
+            background: rgb(76, 123, 180);
+            &:hover {
+                background:rgba(76, 123, 180, 0.6);
+            }
+        }
+
+        .facebook {
+            background: rgb(72, 98, 151);
+            &:hover {
+                background: rgba(72, 98, 151, 0.6);
+            }
+        }
+
+        .google {
+            background: rgb(196, 83, 57);
+            &:hover {
+                background: rgba(196, 83, 57, 0.6);
+            }
+        }
+
+        .pinterest {
+            background: rgb(154, 49, 41);
+            &:hover {
+                background: rgba(154, 49, 41, 0.6);
+            }
+        }
+    }
+}

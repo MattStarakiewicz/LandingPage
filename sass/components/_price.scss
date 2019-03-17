@@ -1,0 +1,153 @@
+@media (min-width: 1080px) {
+    .price {
+        background-color: $clients-background;
+        height: 560px;
+        border-bottom: 1px solid $subtitle-color; 
+        .price-box {
+            border-radius: 5px;
+            background-color: $main-secondary-font-color;
+            height: 340px;
+            margin: 0 15px;
+            padding: 30px;
+                h4 {
+                    color: $main-font-color;
+                    font-size: 14px;
+                    font-weight: bold;
+                    text-align: center;
+                    margin: 0 0 25px 0;
+                }
+                h5 {
+                    font-size: 30px;
+                    line-height: 10px;
+                    margin: 0;
+                    font-weight: bold;
+                    color: $main-font-color;
+                    text-align: center;
+                }
+                h6 {
+                    margin: 15px 0 20px 0;
+                    font-size: 10px;
+                    font-weight: $normal;
+                    text-transform: uppercase;
+                    text-align: center;
+                }
+                p {
+                    font-size: 10px;
+                    line-height: 13px;
+                    font-weight: $normal;
+                    text-align: center;
+                }
+            .btn {
+                background-color: $main-font-color;
+                margin: 20px auto;
+                display: block;
+            }
+            .btn-active {
+                    background-color: $brand-color;
+            }
+        }
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1079px) {
+    .price {
+        background-color: $clients-background;
+        height: auto;
+        border-bottom: 1px solid $subtitle-color; 
+        .price-box {
+            border-radius: 5px;
+            background-color: $main-secondary-font-color;
+            height: 340px;
+            margin: 0 15px 15px 15px;
+            padding: 30px;
+            h4 {
+                color: $main-font-color;
+                font-size: 14px;
+                font-weight: bold;
+                text-align: center;
+                margin: 0 0 25px 0;
+            }
+            h5 {
+                font-size: 30px;
+                line-height: 10px;
+                margin: 0;
+                font-weight: bold;
+                color: $main-font-color;
+                text-align: center;
+            }
+            h6 {
+                margin: 15px 0 20px 0;
+                font-size: 10px;
+                font-weight: $normal;
+                text-transform: uppercase;
+                text-align: center;
+            }
+            p {
+                font-size: 10px;
+                line-height: 13px;
+                font-weight: $normal;
+                text-align: center;
+        }
+        .btn {
+            background-color: $main-font-color;
+            margin: 20px auto;
+            display: block;
+        }
+        .btn-active {
+                background-color: $brand-color;
+        }
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .price {
+        background-color: $clients-background;
+        height: auto;
+        border-bottom: 1px solid $subtitle-color; 
+        .price-box {
+            border-radius: 5px;
+            background-color: $main-secondary-font-color;
+            height: 340px;
+            max-width: 240px;
+            margin: 0 auto 15px auto;
+            padding: 20px;
+            h4 {
+                color: $main-font-color;
+                font-size: 14px;
+                font-weight: bold;
+                text-align: center;
+                margin: 0 0 25px 0;
+            }
+            h5 {
+                font-size: 30px;
+                line-height: 10px;
+                margin: 0;
+                font-weight: bold;
+                color: $main-font-color;
+                text-align: center;
+            }
+            h6 {
+                margin: 15px 0 20px 0;
+                font-size: 10px;
+                font-weight: $normal;
+                text-transform: uppercase;
+                text-align: center;
+            }
+            p {
+                font-size: 10px;
+                line-height: 13px;
+                font-weight: $normal;
+                text-align: center;
+        }
+        .btn {
+            background-color: $main-font-color;
+            margin: 20px auto;
+            display: block;
+        }
+        .btn-active {
+                background-color: $brand-color;
+        }
+        }
+    }
+}
